@@ -28,6 +28,7 @@ button {
   padding: 5px 10px;
   width: 85px;
   font-family: "Baloo Thambi 2", cursive;
+  float: right;
 }
 
 .button-container {
