@@ -13,40 +13,23 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-
-    <h3>LEARN MORE</h3>
-    <div>
-      <div>
-        <h6>COMPANY EMAIL</h6>
-        <input type="text" name="email" placeholder="sally@company.co">
-      </div><br />
-      <div>
-        <h6>NAME</h6>
-        <input type="text" name="name" placeholder="Sally Smith">
-      </div><br />
-      <div>
-        <h6>WHERE ARE YOU HIRING?</h6>
-        <input type="text" name="hiring" placeholder="City,Country">
-      </div>
-      <br />
+  <form class="container">
+    <label class="label-title">LEARN MORE</label>
+    <label class="label-class">COMPANY EMAIL</label>
+    <input type="text" name="email" placeholder="sally@company.co">
+    <label class="label-class">NAME</label>
+    <input type="text" name="name" placeholder="Sally Smith">
+    <label class="label-class">WHERE ARE YOU HIRING?</label>
+    <input type="text" name="hiring" placeholder="City,Country">
+    <label class="label-class">HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?</label>
+    <select class="dropdown">
+      <option value="1-2Engineers">1-2 Engineers</option>
+      <option value="1Engineer">1</option>
+      <option value="2Engineer">2</option>
+    </select>
+    <div class="button-container">
+      <button>SUBMIT</button>
     </div>
-    <div>
-      <h6>HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?</h6>
-      <form>
-        <select class="dropdown">
-          <option value="1-2Engineers">1-2 Engineers</option>
-          <option value="1Engineer">1</option>
-          <option value="2Engineer">2</option>
-        </select>
-      </form>
-      <br/>
-    </div>
-    <form>
-      <div class="button-container">
-        <button>SUBMIT</button>
-      </div>
-    </form>
-  </div>
+  </form>
 </body>
 </html>
