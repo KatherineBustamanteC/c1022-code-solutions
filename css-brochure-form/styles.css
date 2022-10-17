@@ -1,0 +1,55 @@
+.container {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+.label-title {
+  color: #ec5c57;
+  font-family: "Baloo Thambi 2", cursive;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.label-class {
+  color: black;
+  font-family: "Baloo Thambi 2", cursive;
+  margin: 6px 0 0 7px;
+  font-size: 12px;
+}
+
+.dropdown {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  background: rgb(243 243 243);
+  margin-top: 5px;
+}
+
+button {
+  background: rgb(236 92 87);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+  width: 85px;
+  font-family: "Baloo Thambi 2", cursive;
+  margin-top: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: right;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
